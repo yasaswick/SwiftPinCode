@@ -8,12 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		71F8B22A265AA9E700CF0C94 /* SwiftPinCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 71F8B228265AA9E700CF0C94 /* SwiftPinCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71F8B23A265AB1E700CF0C94 /* SwiftPinCodeExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F8B239265AB1E700CF0C94 /* SwiftPinCodeExampleApp.swift */; };
+		71F8B23C265AB1E700CF0C94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F8B23B265AB1E700CF0C94 /* ContentView.swift */; };
+		71F8B23E265AB1EB00CF0C94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71F8B23D265AB1EB00CF0C94 /* Assets.xcassets */; };
+		71F8B241265AB1EB00CF0C94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71F8B240265AB1EB00CF0C94 /* Preview Assets.xcassets */; };
+		71F8B249265AB23700CF0C94 /* SwiftPinCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F8B248265AB23700CF0C94 /* SwiftPinCode.swift */; };
+		71F8B24D265AB24E00CF0C94 /* PinTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F8B24C265AB24E00CF0C94 /* PinTextField.swift */; };
+		71F8B251265AB25C00CF0C94 /* SwiftPinCodeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F8B250265AB25C00CF0C94 /* SwiftPinCodeVM.swift */; };
+		71F8B25D265AB6D200CF0C94 /* SwiftPinCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F8B225265AA9E700CF0C94 /* SwiftPinCode.framework */; };
+		71F8B25E265AB6D200CF0C94 /* SwiftPinCode.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 71F8B225265AA9E700CF0C94 /* SwiftPinCode.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71F8B25F265AB6D200CF0C94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71F8B21C265AA9E700CF0C94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71F8B224265AA9E700CF0C94;
+			remoteInfo = SwiftPinCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		71F8B261265AB6D200CF0C94 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				71F8B25E265AB6D200CF0C94 /* SwiftPinCode.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		71F8B225265AA9E700CF0C94 /* SwiftPinCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftPinCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71F8B228265AA9E700CF0C94 /* SwiftPinCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftPinCode.h; sourceTree = "<group>"; };
 		71F8B229265AA9E700CF0C94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71F8B237265AB1E700CF0C94 /* SwiftPinCodeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPinCodeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F8B239265AB1E700CF0C94 /* SwiftPinCodeExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPinCodeExampleApp.swift; sourceTree = "<group>"; };
+		71F8B23B265AB1E700CF0C94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		71F8B23D265AB1EB00CF0C94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71F8B240265AB1EB00CF0C94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		71F8B242265AB1EB00CF0C94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71F8B248265AB23700CF0C94 /* SwiftPinCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPinCode.swift; sourceTree = "<group>"; };
+		71F8B24C265AB24E00CF0C94 /* PinTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinTextField.swift; sourceTree = "<group>"; };
+		71F8B250265AB25C00CF0C94 /* SwiftPinCodeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPinCodeVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +66,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		71F8B234265AB1E700CF0C94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F8B25D265AB6D200CF0C94 /* SwiftPinCode.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -31,7 +81,9 @@
 			isa = PBXGroup;
 			children = (
 				71F8B227265AA9E700CF0C94 /* SwiftPinCode */,
+				71F8B238265AB1E700CF0C94 /* SwiftPinCodeExample */,
 				71F8B226265AA9E700CF0C94 /* Products */,
+				71F8B25C265AB6D200CF0C94 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -39,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				71F8B225265AA9E700CF0C94 /* SwiftPinCode.framework */,
+				71F8B237265AB1E700CF0C94 /* SwiftPinCodeExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,10 +99,48 @@
 		71F8B227265AA9E700CF0C94 /* SwiftPinCode */ = {
 			isa = PBXGroup;
 			children = (
+				71F8B231265AAA0C00CF0C94 /* Classes */,
 				71F8B228265AA9E700CF0C94 /* SwiftPinCode.h */,
 				71F8B229265AA9E700CF0C94 /* Info.plist */,
 			);
 			path = SwiftPinCode;
+			sourceTree = "<group>";
+		};
+		71F8B231265AAA0C00CF0C94 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				71F8B248265AB23700CF0C94 /* SwiftPinCode.swift */,
+				71F8B24C265AB24E00CF0C94 /* PinTextField.swift */,
+				71F8B250265AB25C00CF0C94 /* SwiftPinCodeVM.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		71F8B238265AB1E700CF0C94 /* SwiftPinCodeExample */ = {
+			isa = PBXGroup;
+			children = (
+				71F8B239265AB1E700CF0C94 /* SwiftPinCodeExampleApp.swift */,
+				71F8B23B265AB1E700CF0C94 /* ContentView.swift */,
+				71F8B23D265AB1EB00CF0C94 /* Assets.xcassets */,
+				71F8B242265AB1EB00CF0C94 /* Info.plist */,
+				71F8B23F265AB1EB00CF0C94 /* Preview Content */,
+			);
+			path = SwiftPinCodeExample;
+			sourceTree = "<group>";
+		};
+		71F8B23F265AB1EB00CF0C94 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				71F8B240265AB1EB00CF0C94 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		71F8B25C265AB6D200CF0C94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,15 +175,39 @@
 			productReference = 71F8B225265AA9E700CF0C94 /* SwiftPinCode.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		71F8B236265AB1E700CF0C94 /* SwiftPinCodeExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71F8B245265AB1EB00CF0C94 /* Build configuration list for PBXNativeTarget "SwiftPinCodeExample" */;
+			buildPhases = (
+				71F8B233265AB1E700CF0C94 /* Sources */,
+				71F8B234265AB1E700CF0C94 /* Frameworks */,
+				71F8B235265AB1E700CF0C94 /* Resources */,
+				71F8B261265AB6D200CF0C94 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71F8B260265AB6D200CF0C94 /* PBXTargetDependency */,
+			);
+			name = SwiftPinCodeExample;
+			productName = SwiftPinCodeExample;
+			productReference = 71F8B237265AB1E700CF0C94 /* SwiftPinCodeExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		71F8B21C265AA9E700CF0C94 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
 					71F8B224265AA9E700CF0C94 = {
+						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
+					};
+					71F8B236265AB1E700CF0C94 = {
 						CreatedOnToolsVersion = 12.3;
 					};
 				};
@@ -111,6 +226,7 @@
 			projectRoot = "";
 			targets = (
 				71F8B224265AA9E700CF0C94 /* SwiftPinCode */,
+				71F8B236265AB1E700CF0C94 /* SwiftPinCodeExample */,
 			);
 		};
 /* End PBXProject section */
@@ -123,6 +239,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		71F8B235265AB1E700CF0C94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F8B241265AB1EB00CF0C94 /* Preview Assets.xcassets in Resources */,
+				71F8B23E265AB1EB00CF0C94 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -130,10 +255,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71F8B251265AB25C00CF0C94 /* SwiftPinCodeVM.swift in Sources */,
+				71F8B249265AB23700CF0C94 /* SwiftPinCode.swift in Sources */,
+				71F8B24D265AB24E00CF0C94 /* PinTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F8B233265AB1E700CF0C94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F8B23C265AB1E700CF0C94 /* ContentView.swift in Sources */,
+				71F8B23A265AB1E700CF0C94 /* SwiftPinCodeExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71F8B260265AB6D200CF0C94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71F8B224265AA9E700CF0C94 /* SwiftPinCode */;
+			targetProxy = 71F8B25F265AB6D200CF0C94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		71F8B22B265AA9E700CF0C94 /* Debug */ = {
@@ -188,7 +333,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -246,7 +391,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -261,6 +406,7 @@
 		71F8B22E265AA9E700CF0C94 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -276,6 +422,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yasas.SwiftPinCode;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +432,7 @@
 		71F8B22F265AA9E700CF0C94 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -299,6 +448,51 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yasas.SwiftPinCode;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71F8B243265AB1EB00CF0C94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftPinCodeExample/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftPinCodeExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"$(SRCROOT)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yasas.SwiftPinCodeExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71F8B244265AB1EB00CF0C94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftPinCodeExample/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftPinCodeExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"$(SRCROOT)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yasas.SwiftPinCodeExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -321,6 +515,15 @@
 			buildConfigurations = (
 				71F8B22E265AA9E700CF0C94 /* Debug */,
 				71F8B22F265AA9E700CF0C94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71F8B245265AB1EB00CF0C94 /* Build configuration list for PBXNativeTarget "SwiftPinCodeExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71F8B243265AB1EB00CF0C94 /* Debug */,
+				71F8B244265AB1EB00CF0C94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
